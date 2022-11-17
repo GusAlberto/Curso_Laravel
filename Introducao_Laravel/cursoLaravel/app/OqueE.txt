@@ -1,0 +1,8 @@
+:: Para que essa pasta e arquivos servem? ::
+
+- Estrutura do nosso projeto seguindo a linha do MVC.
+
+- Onde podemos configurar nossas: • rotas(Controllers),
+                                  • filtros(Middlewares),
+                                  • exceções/erros(Exceptions),
+                                  • modelo de tabelas e suas colunas(Models)

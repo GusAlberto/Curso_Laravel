@@ -1,0 +1,3 @@
+:: Para que essa pasta e arquivos servem? ::
+
+Aqui ficam incluídos todos os arquivos de front-end do sistema.

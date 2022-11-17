@@ -1,0 +1,3 @@
+:: Para que essa pasta e arquivos servem? ::
+
+Essa pasta serve para escrever o retorno na linguagem específica para o usuário

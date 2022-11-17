@@ -1,0 +1,3 @@
+:: Para que essa pasta e arquivos servem? ::
+
+- É a pasta que é chamada para inicilização do Laravel

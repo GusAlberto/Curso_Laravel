@@ -1,0 +1,3 @@
+:: Para que essa pasta e arquivos servem? ::
+
+- Onde iremos criar e especificar nossas rotas web, canais e rotas de api

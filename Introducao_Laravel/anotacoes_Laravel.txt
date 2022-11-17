@@ -1,0 +1,19 @@
+/* ARRASTE PARA BAIXO 👇 
+
+Aprendendo Laravel pelos cursos da Udemy, Alura e EspecializaTi
+
+~~~~~Explanation topics~~~~~
+1- Artisan é o nome da interface da linha de comando(CLI) incluída no Laravel; 
+1.1- Esta interface fornece um bom número de comandos auxiliares para que você use durante o desenvolvimento de sua aplicação;
+1.2- O artisan é impulsionado pelo poderoso componente de Console do Symfony framework.
+------------------------------------------------------------------------------------------------------------------------
+2- 
+------------------------------------------------------------------------------------------------------------------------
+3- 
+------------------------------------------------------------------------------------------------------------------------
+4- 
+4.1- 
+4.2-
+------------------------------------------------------------------------------------------------------------------------
+
+*/
