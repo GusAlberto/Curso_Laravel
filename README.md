@@ -1,2 +1,3 @@
-# Curso_Laravel
-Colocando Laravel com ambiente Docker
+# Curso Laravel
+
+Curso para iniciantes em Laravel pela Udemy
