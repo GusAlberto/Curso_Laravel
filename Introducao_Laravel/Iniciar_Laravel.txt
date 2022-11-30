@@ -1,6 +1,0 @@
-Requerido: 
-Estar na pasta raiz do projeto ↴
-cd /home/gustavo/Projetos/Curso_Alura/Introducao_Laravel/cursoLaravel
-
-Comando:          
-php artisan serve

@@ -1,5 +1,11 @@
 <?php
 
+require __DIR__.'/../vendor/autoload.php';
+
+use App\Http\Controllers\{
+    UserController
+};
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,12 +19,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
 
+//Criando rota Users para usuários
+Route::get('/users', [UserController::class, 'index'])->name('users.index');
+Route::get('/users/{id}', [UserController::class, 'show'])->name('users.show');
+
 //Implementando a rota Contato pegando acesso pelo Id, sem mostrar no caminho
-Route::get('/contato/[id?]', function($id = null) {
+ Route::get('/contato/[id?]', function($id = null) {
     return "Contato id = $id";
 });
 

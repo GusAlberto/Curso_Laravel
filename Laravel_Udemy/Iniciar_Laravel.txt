@@ -1,0 +1,12 @@
+Requerido: 
+Estar na pasta raiz do projeto ↴
+cd /home/gustavo/Projetos/Curso_Alura/Introducao_Laravel/cursoLaravel
+
+Instalar os containers que estão especificados dentro do Dockerfile:
+docker-compose up -d
+
+Verificar se os conteiners estão ativos/ Se não estiverem, eles irão subir:
+docker-compose exec app bash
+
+Comando para utilizar o servidor web:          
+php artisan serve
