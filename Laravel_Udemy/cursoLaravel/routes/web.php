@@ -19,10 +19,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+ */
+
+// Se o Laravel receber uma função no segundo parâmetro do verbo Get, ele irá entender que é de callback
+// Caso receber uma string, vai entender que estamos
+Route::get('/', [\App\Http\Controllers\PrincipalController::class, 'principal']);
+
+Route::get('/sobre-nos', [\App\Http\Controllers\SobreNosController::class, 'sobreNos']);
+
+Route::get('/contato', [\App\Http\Controllers\ContatoController::class, 'contato']);
 
 //Criando rota Users para usuários
 Route::get('/users', [UserController::class, 'index'])->name('users.index');

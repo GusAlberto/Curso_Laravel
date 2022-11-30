@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ContatoController extends Controller
+class PrincipalController extends Controller
 {
 // ACTIONS = Métodos dentro do controlador
 // Rota irá rodar o controller e suas funções
-    public function contato()
+    public function principal()
     {
-        echo 'ROTA PARA CONTATO';
+        echo 'Seja bem vindo ao aprendizado!';
     }
 }
