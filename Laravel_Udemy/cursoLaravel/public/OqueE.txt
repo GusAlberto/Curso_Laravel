@@ -1,0 +1,5 @@
+:: Para que essa pasta e arquivos servem? ::
+
+- É a pasta que é acessada pelo nosso servidor web
+
+- Onde contém os arquivos que apontam para o restante da aplicação

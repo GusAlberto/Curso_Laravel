@@ -1,5 +1,7 @@
 :: Para que essa pasta e arquivos servem? ::
 
-- Onde irá ficar todos os nossos arquivos de migrations.
+- Essa pasta é utilizada para acessar nosso banco de dados
+
+- Onde está os arquivos que irão ser lidas pelo BD
 
 - Permite povoar nossa tabela
