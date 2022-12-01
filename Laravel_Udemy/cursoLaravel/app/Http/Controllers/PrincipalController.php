@@ -10,6 +10,6 @@ class PrincipalController extends Controller
 // Rota irá rodar o controller e suas funções
     public function principal()
     {
-        echo 'Seja bem vindo ao aprendizado!';
+        return view('site.principal');
     }
 }

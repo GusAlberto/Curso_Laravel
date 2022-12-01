@@ -10,6 +10,6 @@ class ContatoController extends Controller
 // Rota irá rodar o controller e suas funções
     public function contato()
     {
-        echo 'ROTA PARA CONTATO';
+        return view('site.contato');
     }
 }

@@ -10,6 +10,6 @@ class SobreNosController extends Controller
 // Rota irá rodar o controller e suas funções
     public function sobreNos()
     {
-        echo 'ROTA PARA EXPLICAR INSTITUIÇÃO';
+        return view('site.sobre-nos');
     }
 }
